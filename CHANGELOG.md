@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-09-16
+
+### Changed
+
+- **Project abandoned.** Status moved from Draft to Abandoned. No further maintenance, no contributions accepted.
+- README rewritten at the top and in the Status section to explain why: SDD produces empty deliverables before code, nobody reads specs (thin ones included), and they take protagonism away from the code. The proposal stage remains the only part worth keeping; a plain `PLAN.md` → approve → implement → review → commit → push → refactor loop replaced the spec cycle.
+
 ## [0.2.1] - 2026-05-20
 
 ### Added

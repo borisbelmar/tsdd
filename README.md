@@ -5,7 +5,10 @@
 **Author:** [Boris Belmar](https://dobleb.cl) / [dobleB.cl](https://dobleb.cl)
 
 ![Version](https://img.shields.io/badge/version-0.2.1-blue)
-![Status](https://img.shields.io/badge/status-draft-yellow)
+![Status](https://img.shields.io/badge/status-abandoned-red)
+
+> **⚠️ This project is abandoned. Not maintained, not recommended.**
+> After using TSDD for a while I stopped believing in Spec Driven Development as a whole. See [Why this was abandoned](#why-this-was-abandoned) before reading the rest — everything below is kept only as a record of the idea.
 
 ---
 
@@ -399,10 +402,17 @@ Skills live under `skills/` and can be installed into any agent that supports th
 
 ---
 
-## Status
+## Why this was abandoned
 
-> **This is a methodology proposal currently being socialized.**  
-> TSDD is in draft status until it sees real-world adoption and usage. We're sharing it to gather feedback, identify gaps, and refine it through actual use. Once it has been applied by multiple teams across different contexts, the status will move from Draft to Stable. Critiques, case studies, and real-world experiences are welcome.
+SDD is not new. It has been tried in every era under a different name, and it has never worked. The failure is structural, not a matter of finding the right format or the right thinness:
+
+- **Specs are empty deliverables.** They produce the feeling of progress before a single line of code exists, and the feeling is not the progress.
+- **Nobody reads them.** Not the big ones, and not the small ones — not even the deliberately thin specs TSDD proposed.
+- **They take protagonism away from the code.** The code is the artifact that ships, runs, and is reviewed. Anything that competes with it for attention is overhead.
+
+What survives: the **proposal** stage. Writing down the problem, the scope, and the open decisions for a fuzzy problem space is still worth the time.
+
+What replaced it, and works better in practice: a good `PLAN.md` → approve it → implement → review → commit → push → refactor → next task. No spec lifecycle, no docs tree to maintain, no contract to keep in sync with the code.
 
 ---
 
@@ -414,9 +424,7 @@ See [CHANGELOG.md](CHANGELOG.md) for a history of changes to TSDD.
 
 ## Contributing
 
-TSDD is an open methodology. If your team has adapted it, found gaps, or improved a stage — contribute back.
-
-Discussions, critiques, and real-world case studies are more valuable than theoretical improvements.
+Not accepting contributions — the methodology is abandoned, not paused. Fork it if you want to take it somewhere else.
 
 ---
 
